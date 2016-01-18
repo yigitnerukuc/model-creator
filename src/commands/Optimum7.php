@@ -69,7 +69,7 @@ class Optimum7 extends Command
         $php .= '{' . "\n";
         foreach($fields as $field){
             $fieldName = $field->Field;
-            $php .= "\t" . 'protected $'.$fieldName.";\n";
+            $php .= "\t" . 'public $'.$fieldName.";\n";
         }
         $php .= "}\n";
         if(!empty($output)){
