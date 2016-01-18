@@ -1,0 +1,19 @@
+{
+    "name": "yigitcukuren/model-generator",
+    "description": "Optimum7 Laravel Wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yigit Cukuren",
+            "email": "yigit@optimum7.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YigitCukuren\\Optimum7\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+
+}
